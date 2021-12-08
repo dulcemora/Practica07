@@ -4,8 +4,8 @@ public class Sort{
 
     public static void main(String[] args){
 	Random random1 = new Random();
-	int[] arr = new int[10];
-	int[] arr2 = new int[10];
+	int[] arr = new int[100000];
+	int[] arr2 = new int[100000];
 	for(int i = 0; i < arr.length; i++){
 	     int aux = random1.nextInt(100);
 	     arr[i] = aux;

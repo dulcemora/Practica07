@@ -1,3 +1,8 @@
+/**
+ *Clase 
+ * @author Dulce Mora
+ * @version 1.0
+**/
 public class Operador extends Empleado{
 
     /**
@@ -15,5 +20,8 @@ public class Operador extends Empleado{
 	super();
     }
 
+    public String toString(){
+	return "Operador: " + nombre;
+    }
 
 }

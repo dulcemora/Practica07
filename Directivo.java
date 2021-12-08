@@ -1,3 +1,8 @@
+/**
+ *Clase 
+ * @author Dulce Mora
+ * @version 1.0
+**/
 public class Directivo extends Empleado{
 
         /**

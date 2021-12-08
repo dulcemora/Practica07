@@ -2,6 +2,37 @@ import java.util.Random;
 
 public class Sort{
 
+    public static void main(String[] args){
+	Random random1 = new Random();
+	int[] arr = new int[10];
+	int[] arr2 = new int[10];
+	for(int i = 0; i < arr.length; i++){
+	     int aux = random1.nextInt(100);
+	     arr[i] = aux;
+	     arr2[i] = aux;
+      }
+
+	//Arreglo desordenado
+      	for(int i = 0; i < arr.length; i++){
+	    System.out.print(arr[i] + ", ");
+	}
+
+	//Para quicksort
+	System.out.println("\nQuicksort");
+	quicksort(arr, 0, arr.length - 1);
+	for(int i = 0; i < arr.length; i++){
+	    System.out.print(arr[i] + ", ");
+	}	
+
+	//Para bubblesort
+	System.out.println("\nBubblesort");
+	bubblesort(arr2);
+	for(int i = 0; i < arr2.length; i++){
+	    System.out.print(arr2[i] + ", ");
+	}
+	
+    }
+    
     //Quicksort
     public static int particion(int arr[], int izq, int der) {
         int pivote = arr[izq];
@@ -45,5 +76,4 @@ public class Sort{
 	}
     }
  
-
 }

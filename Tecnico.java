@@ -20,4 +20,16 @@ public class Tecnico extends Operador{
 	super();
     }
 
+    /**
+     * Metodo que devuelve "Estoy trabajando"
+     * @return Estoy trabajando
+     **/
+    public String trabaja(){
+	return "Estoy trabajando";
+    }
+    
+    public String toString(){
+	return "Tecnico: " + nombre;
+    }
+    
 }

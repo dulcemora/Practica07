@@ -44,8 +44,8 @@ public class Empleado{
     
     //equals
     @Override
-    public boolean equals(Object a){
-	Empleado em = (Empleado) a;
+    public boolean equals(Object empleado){
+	Empleado em = (Empleado) empleado;
 	return this.nombre.equals(em.getNombre());
     }    
 }

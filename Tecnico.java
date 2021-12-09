@@ -1,5 +1,5 @@
 /**
- *Clase 
+ *Clase Tecnico 
  * @author Dulce Mora
  * @version 1.0
 **/
@@ -28,6 +28,10 @@ public class Tecnico extends Operador{
 	return "Estoy trabajando";
     }
     
+    /**
+     *Metodo toString
+     * @return nombre
+     **/
     public String toString(){
 	return "Tecnico: " + nombre;
     }

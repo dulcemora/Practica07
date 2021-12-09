@@ -1,5 +1,5 @@
 /**
- *Clase 
+ *Clase Empleado
  * @author Dulce Mora
  * @version 1.0
 **/
@@ -37,12 +37,18 @@ public class Empleado{
 	this.nombre = nombre;
     }
     
-    //toString
+    /**
+     *Metodo toString
+     * @return nombre
+     **/
     public String toString(){
 	return "Empleado: " + nombre;
     }
     
-    //equals
+    /**
+     *Metodo equals
+     * @return Si los nombres de dos empleados son iguales
+     **/
     @Override
     public boolean equals(Object empleado){
 	Empleado em = (Empleado) empleado;

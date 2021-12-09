@@ -1,5 +1,5 @@
 /**
- *Clase 
+ *Clase Oficial
  * @author Dulce Mora
  * @version 1.0
 **/
@@ -26,7 +26,11 @@ public class Oficial extends Operador{
     public String trabaja(){
 	return "Estoy trabajando";
     }
-    
+
+    /**
+     *Metodo toString
+     * @return nombre
+     **/
     public String toString(){
 	return "Oficial: " + nombre;
     }

@@ -1,5 +1,5 @@
 /**
- *Clase 
+ *Clase Directivo
  * @author Dulce Mora
  * @version 1.0
 **/
@@ -20,6 +20,10 @@ public class Directivo extends Empleado{
 	super();
     }
 
+    /**
+     *Metodo toString
+     * @return nombre
+     **/
     public String toString(){
 	return "Directivo: " + nombre;
     }

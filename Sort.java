@@ -1,7 +1,13 @@
 import java.util.Random;
 
+/**
+ *Clase Sort
+ * @author Dulce Mora
+ * @version 1.0
+**/
 public class Sort{
 
+    
     public static void main(String[] args){
 	Random random1 = new Random();
 	int[] arr = new int[100000];
@@ -33,7 +39,12 @@ public class Sort{
 	
     }
     
-    //Quicksort
+    /**
+     * Metodo particion
+     * @param arr Parametro que es el arreglo
+     * @param izq Parametro que indica valores de la izquierda
+     * @param der Parametro que indica valores de la derecha
+     **/
     public static int particion(int arr[], int izq, int der) {
         int pivote = arr[izq];
 	while (true) {
@@ -55,6 +66,12 @@ public class Sort{
         }
     }
 
+    /**
+     * Metodo quicksort
+     * @param arr Parametro que es el arreglo
+     * @param izq Parametro que indica valores de la izquierda
+     * @param der Parametro que indica valores de la derecha
+     **/    
     public static void quicksort(int arr[], int izq, int der) {
     if (izq < der) {
         int indiceParticion = particion(arr, izq, der);
@@ -63,7 +80,10 @@ public class Sort{
        }
     }
 
-    //Bubblesort
+    /**
+     * Metodo bubblesort
+     * @param arr2 Parametro que es el arreglo
+     **/    
     public static void bubblesort(int[] arr2) {
 	for(int i = 0; i < arr2.length; i++){
 	    for(int j = 0; j < arr2.length - 1; j++){

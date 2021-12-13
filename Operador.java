@@ -1,20 +1,19 @@
 /**
- *Clase Operador
+ *Clase Operador que hereda de Empleado
  * @author Dulce Mora
  * @version 1.0
 **/
 public class Operador extends Empleado{
 
     /**
-     * Metodo constructor que recibe un String
-     * @param nombre Parametro que es el nombre
+     * Metodo constructor que manda llamar al constructor de Empleado
      **/
     public Operador(String nombre){
 	super(nombre);
     }
 
     /**
-     * Metodo constructor que da como nombre predeterminado Dulce Mora
+     * Metodo constructor que manda llamar al constructor de Empleado
      **/
     public Operador(){
 	super();
